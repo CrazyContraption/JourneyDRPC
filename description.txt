@@ -1,0 +1,47 @@
+
+Welcome to Journey's End Discord Rich Presence! - Last Updated 10/10/2021
+
+
+This mod provides seamless rich presence data for your Discord "playing" status for TML Terraria 1.4.
+
+This mod is a client-side mode, so you can play on any server with it, and the server will not disable or stop this mod from running.
+
+If the rich presence isn't showing up on your profile, ensure that your activity status is on, and tModloader is added as a game.
+
+
+FEATURES:
+ - Displays the active biome, bosses, and other locational and situational information of your player.
+ - Shows your life, mana, defence, and even your team!
+ - Shows if you're playing solo, or on a server, and auto-generates a group of Discord users also using the mod on the same server!
+ - No sign-in/authentication with Discord required!
+
+
+!!! THIS IS AN ALPHA VERSION !!!
+This is intended for early access users wishing to play on 1.4, and is likely to be broken several times!
+
+I will do my best to ensure that the mod stays compatible and issue updates as needed, especially for multiplayer and cross-mod compatibility.
+Please report any issues -no matter how small- to the Steam workshop page, or reach out to me on the tModloader Discord (@CrazyContraption#0666)
+
+We're also open to suggestions and feedback!
+
+
+ROADMAP (Order of Priority)
+
+ 1 - A handmade icon!
+ 2 - Join game button and invite embeds for Discord
+ 3 - Animated icons
+ 4 - Cross-mod compatibility/features
+ 5 - Other Discord integrations, such as chat relays
+ 6 - Translations
+
+
+CHANGELOG
+
+0.1.1
+ * Minor biome importance fixes.
+ * Minor tolerance fixes.
+ * Added tags.
+ * Updates to the Discord API to keep things compatible.
+
+0.1.0
+ * Released!

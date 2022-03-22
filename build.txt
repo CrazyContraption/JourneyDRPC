@@ -1,0 +1,9 @@
+displayName = Journey's End Discord Rich Presence
+author = CrazyContraption
+version = 0.1.1
+hideCode = true
+side = NoSync
+hideResources = true
+includeSource = false
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, assets\*
+dllReferences = Discord.Net.Commands, Discord.Net.Core, Discord.Net.Rest, Discord.Net.Webhook, Discord.Net.WebSocket, DiscordRPC
