@@ -423,9 +423,9 @@ namespace JourneyDRPC
 				}
 
 				this.SmallAsset = "heart";
-				this.SmallText = $"{Main.player[Main.myPlayer].statLife}/{Main.player[Main.myPlayer].statLifeMax} HP \n| " +
+				this.SmallText = $"{Main.player[Main.myPlayer].statLife}/{Main.player[Main.myPlayer].statLifeMax2} HP \n| " +
 					$"{Main.player[Main.myPlayer].statDefense} DEF \n| " +
-					$"{Main.player[Main.myPlayer].statMana}/{Main.player[Main.myPlayer].statManaMax} MP";
+					$"{Main.player[Main.myPlayer].statMana}/{Main.player[Main.myPlayer].statManaMax2} MP";
 
 				if (Main.netMode != NetmodeID.SinglePlayer)
                     switch (Main.player[Main.myPlayer].team)
@@ -467,7 +467,7 @@ namespace JourneyDRPC
 
 		float HealthAsPercent(Player player)
         {
-			return ((player.statLife * 100) / player.statLifeMax );
+			return ((player.statLife * 100) / player.statLifeMax2 );
 		}
 
 		void Log(string msg, byte level = 0)

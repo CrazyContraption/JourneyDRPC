@@ -1,5 +1,5 @@
 
-Welcome to Journey's End Discord Rich Presence! - Last Updated 10/10/2021
+Welcome to Journey's End Discord Rich Presence! - Last Updated 4/19/2022
 
 
 This mod provides seamless rich presence data for your Discord "playing" status for TML Terraria 1.4.
@@ -36,6 +36,15 @@ ROADMAP (Order of Priority)
 
 
 CHANGELOG
+
+0.1.3
+ * More minor tweaks.
+ * Fixed an issue with dependancies after May 2022 tML updates.
+
+0.1.2
+ * Minor performance tweaks.
+ * Fixed an issue where the mod would only read pre-hardmode maximum health and mana stats.
+ * Fixed an issue with currupted clients on mod reload (hopefully).
 
 0.1.1
  * Minor biome importance fixes.
